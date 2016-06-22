@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8404FDE1D1A4445001EE7DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8404FDD1D1A4445001EE7DB /* main.m */; };
+		D8404FE11D1A4445001EE7DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8404FE01D1A4445001EE7DB /* AppDelegate.m */; };
+		D8404FE91D1A4445001EE7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8404FE81D1A4445001EE7DB /* Assets.xcassets */; };
+		D8404FEC1D1A4445001EE7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8404FEA1D1A4445001EE7DB /* LaunchScreen.storyboard */; };
+		D8404FF41D1A446C001EE7DB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D8404FF31D1A446C001EE7DB /* Podfile */; };
+		F1AC41D134076BC76A684205 /* libPods-ZuiHuiYou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1AE9B5B9D51C42907FF5A5 /* libPods-ZuiHuiYou.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74E156A895B74D759786D398 /* Pods-ZuiHuiYou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuiHuiYou.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZuiHuiYou/Pods-ZuiHuiYou.release.xcconfig"; sourceTree = "<group>"; };
+		77A3BD22835EE952B283ABBE /* Pods-ZuiHuiYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuiHuiYou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZuiHuiYou/Pods-ZuiHuiYou.debug.xcconfig"; sourceTree = "<group>"; };
+		D8404FD91D1A4445001EE7DB /* ZuiHuiYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuiHuiYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8404FDD1D1A4445001EE7DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8404FDF1D1A4445001EE7DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8404FE01D1A4445001EE7DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8404FE81D1A4445001EE7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8404FEB1D1A4445001EE7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8404FED1D1A4445001EE7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8404FF31D1A446C001EE7DB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA1AE9B5B9D51C42907FF5A5 /* libPods-ZuiHuiYou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZuiHuiYou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8404FD61D1A4445001EE7DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AC41D134076BC76A684205 /* libPods-ZuiHuiYou.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59A8290A4B24885C618D21B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77A3BD22835EE952B283ABBE /* Pods-ZuiHuiYou.debug.xcconfig */,
+				74E156A895B74D759786D398 /* Pods-ZuiHuiYou.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93B2433C45763C53BD98610E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA1AE9B5B9D51C42907FF5A5 /* libPods-ZuiHuiYou.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8404FD01D1A4445001EE7DB = {
+			isa = PBXGroup;
+			children = (
+				D8404FF31D1A446C001EE7DB /* Podfile */,
+				D8404FDB1D1A4445001EE7DB /* ZuiHuiYou */,
+				D8404FDA1D1A4445001EE7DB /* Products */,
+				59A8290A4B24885C618D21B9 /* Pods */,
+				93B2433C45763C53BD98610E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8404FDA1D1A4445001EE7DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8404FD91D1A4445001EE7DB /* ZuiHuiYou.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8404FDB1D1A4445001EE7DB /* ZuiHuiYou */ = {
+			isa = PBXGroup;
+			children = (
+				D8404FDF1D1A4445001EE7DB /* AppDelegate.h */,
+				D8404FE01D1A4445001EE7DB /* AppDelegate.m */,
+				D8404FE81D1A4445001EE7DB /* Assets.xcassets */,
+				D8404FEA1D1A4445001EE7DB /* LaunchScreen.storyboard */,
+				D8404FED1D1A4445001EE7DB /* Info.plist */,
+				D8404FDC1D1A4445001EE7DB /* Supporting Files */,
+			);
+			path = ZuiHuiYou;
+			sourceTree = "<group>";
+		};
+		D8404FDC1D1A4445001EE7DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8404FDD1D1A4445001EE7DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8404FD81D1A4445001EE7DB /* ZuiHuiYou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8404FF01D1A4445001EE7DB /* Build configuration list for PBXNativeTarget "ZuiHuiYou" */;
+			buildPhases = (
+				287795936A1B91652EFEE7A9 /* [CP] Check Pods Manifest.lock */,
+				D8404FD51D1A4445001EE7DB /* Sources */,
+				D8404FD61D1A4445001EE7DB /* Frameworks */,
+				D8404FD71D1A4445001EE7DB /* Resources */,
+				E8FAB5C682A9D7DD417CB886 /* [CP] Embed Pods Frameworks */,
+				D7CEC951700F48B4FA61F638 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZuiHuiYou;
+			productName = ZuiHuiYou;
+			productReference = D8404FD91D1A4445001EE7DB /* ZuiHuiYou.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8404FD11D1A4445001EE7DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = win;
+				TargetAttributes = {
+					D8404FD81D1A4445001EE7DB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = D8404FD41D1A4445001EE7DB /* Build configuration list for PBXProject "ZuiHuiYou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8404FD01D1A4445001EE7DB;
+			productRefGroup = D8404FDA1D1A4445001EE7DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8404FD81D1A4445001EE7DB /* ZuiHuiYou */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8404FD71D1A4445001EE7DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8404FEC1D1A4445001EE7DB /* LaunchScreen.storyboard in Resources */,
+				D8404FE91D1A4445001EE7DB /* Assets.xcassets in Resources */,
+				D8404FF41D1A446C001EE7DB /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		287795936A1B91652EFEE7A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CEC951700F48B4FA61F638 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZuiHuiYou/Pods-ZuiHuiYou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8FAB5C682A9D7DD417CB886 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZuiHuiYou/Pods-ZuiHuiYou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8404FD51D1A4445001EE7DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8404FE11D1A4445001EE7DB /* AppDelegate.m in Sources */,
+				D8404FDE1D1A4445001EE7DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8404FEA1D1A4445001EE7DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8404FEB1D1A4445001EE7DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8404FEE1D1A4445001EE7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8404FEF1D1A4445001EE7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8404FF11D1A4445001EE7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A3BD22835EE952B283ABBE /* Pods-ZuiHuiYou.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZuiHuiYou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = win.com.cn.ZuiHuiYou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D8404FF21D1A4445001EE7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74E156A895B74D759786D398 /* Pods-ZuiHuiYou.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZuiHuiYou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = win.com.cn.ZuiHuiYou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8404FD41D1A4445001EE7DB /* Build configuration list for PBXProject "ZuiHuiYou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8404FEE1D1A4445001EE7DB /* Debug */,
+				D8404FEF1D1A4445001EE7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8404FF01D1A4445001EE7DB /* Build configuration list for PBXNativeTarget "ZuiHuiYou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8404FF11D1A4445001EE7DB /* Debug */,
+				D8404FF21D1A4445001EE7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8404FD11D1A4445001EE7DB /* Project object */;
+}
