@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D8404FDE1D1A4445001EE7DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8404FDD1D1A4445001EE7DB /* main.m */; };
-		D8404FE11D1A4445001EE7DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8404FE01D1A4445001EE7DB /* AppDelegate.m */; };
 		D8404FE91D1A4445001EE7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8404FE81D1A4445001EE7DB /* Assets.xcassets */; };
 		D8404FEC1D1A4445001EE7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8404FEA1D1A4445001EE7DB /* LaunchScreen.storyboard */; };
 		D8404FF41D1A446C001EE7DB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D8404FF31D1A446C001EE7DB /* Podfile */; };
+		D8DEFEF51D1A575100AF2902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DEFEE71D1A575100AF2902 /* AppDelegate.m */; };
 		F1AC41D134076BC76A684205 /* libPods-ZuiHuiYou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1AE9B5B9D51C42907FF5A5 /* libPods-ZuiHuiYou.a */; };
 /* End PBXBuildFile section */
 
@@ -20,12 +20,12 @@
 		77A3BD22835EE952B283ABBE /* Pods-ZuiHuiYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuiHuiYou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZuiHuiYou/Pods-ZuiHuiYou.debug.xcconfig"; sourceTree = "<group>"; };
 		D8404FD91D1A4445001EE7DB /* ZuiHuiYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuiHuiYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8404FDD1D1A4445001EE7DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8404FDF1D1A4445001EE7DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D8404FE01D1A4445001EE7DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D8404FE81D1A4445001EE7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8404FEB1D1A4445001EE7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8404FED1D1A4445001EE7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8404FF31D1A446C001EE7DB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D8DEFEE61D1A575100AF2902 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8DEFEE71D1A575100AF2902 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FA1AE9B5B9D51C42907FF5A5 /* libPods-ZuiHuiYou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZuiHuiYou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,11 +80,8 @@
 		D8404FDB1D1A4445001EE7DB /* ZuiHuiYou */ = {
 			isa = PBXGroup;
 			children = (
-				D8404FDF1D1A4445001EE7DB /* AppDelegate.h */,
-				D8404FE01D1A4445001EE7DB /* AppDelegate.m */,
-				D8404FE81D1A4445001EE7DB /* Assets.xcassets */,
-				D8404FEA1D1A4445001EE7DB /* LaunchScreen.storyboard */,
-				D8404FED1D1A4445001EE7DB /* Info.plist */,
+				D8DEFEDC1D1A575100AF2902 /* Classes */,
+				D8DEFEF41D1A575100AF2902 /* images */,
 				D8404FDC1D1A4445001EE7DB /* Supporting Files */,
 			);
 			path = ZuiHuiYou;
@@ -93,9 +90,196 @@
 		D8404FDC1D1A4445001EE7DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8404FE81D1A4445001EE7DB /* Assets.xcassets */,
+				D8404FEA1D1A4445001EE7DB /* LaunchScreen.storyboard */,
+				D8404FED1D1A4445001EE7DB /* Info.plist */,
 				D8404FDD1D1A4445001EE7DB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8DEFEDC1D1A575100AF2902 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8DEFEDD1D1A575100AF2902 /* Destination(目的地) */,
+				D8DEFEE11D1A575100AF2902 /* Home(首页) */,
+				D8DEFEE51D1A575100AF2902 /* Main */,
+				D8DEFEEC1D1A575100AF2902 /* Me(我) */,
+				D8DEFEF01D1A575100AF2902 /* Message(消息) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D8DEFEDD1D1A575100AF2902 /* Destination(目的地) */ = {
+			isa = PBXGroup;
+			children = (
+				D8DEFEDE1D1A575100AF2902 /* Controller */,
+				D8DEFEDF1D1A575100AF2902 /* Model */,
+				D8DEFEE01D1A575100AF2902 /* View */,
+			);
+			path = "Destination(目的地)";
+			sourceTree = "<group>";
+		};
+		D8DEFEDE1D1A575100AF2902 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8DEFEDF1D1A575100AF2902 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8DEFEE01D1A575100AF2902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8DEFEE11D1A575100AF2902 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				D8DEFEE21D1A575100AF2902 /* Controller */,
+				D8DEFEE31D1A575100AF2902 /* Model */,
+				D8DEFEE41D1A575100AF2902 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		D8DEFEE21D1A575100AF2902 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8DEFEE31D1A575100AF2902 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8DEFEE41D1A575100AF2902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8DEFEE51D1A575100AF2902 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D8DEFEE61D1A575100AF2902 /* AppDelegate.h */,
+				D8DEFEE71D1A575100AF2902 /* AppDelegate.m */,
+				D8DEFEE81D1A575100AF2902 /* Controller */,
+				D8DEFEE91D1A575100AF2902 /* Model */,
+				D8DEFEEA1D1A575100AF2902 /* Utils */,
+				D8DEFEEB1D1A575100AF2902 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D8DEFEE81D1A575100AF2902 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8DEFEE91D1A575100AF2902 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8DEFEEA1D1A575100AF2902 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D8DEFEEB1D1A575100AF2902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8DEFEEC1D1A575100AF2902 /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				D8DEFEED1D1A575100AF2902 /* Controller */,
+				D8DEFEEE1D1A575100AF2902 /* Model */,
+				D8DEFEEF1D1A575100AF2902 /* View */,
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		D8DEFEED1D1A575100AF2902 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8DEFEEE1D1A575100AF2902 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8DEFEEF1D1A575100AF2902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8DEFEF01D1A575100AF2902 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				D8DEFEF11D1A575100AF2902 /* Controller */,
+				D8DEFEF21D1A575100AF2902 /* Model */,
+				D8DEFEF31D1A575100AF2902 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		D8DEFEF11D1A575100AF2902 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8DEFEF21D1A575100AF2902 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8DEFEF31D1A575100AF2902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8DEFEF41D1A575100AF2902 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8404FE11D1A4445001EE7DB /* AppDelegate.m in Sources */,
+				D8DEFEF51D1A575100AF2902 /* AppDelegate.m in Sources */,
 				D8404FDE1D1A4445001EE7DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
