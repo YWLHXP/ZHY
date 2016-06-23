@@ -37,7 +37,7 @@
     
     //目的地
     XPDestinationTableController *destination = [[XPDestinationTableController alloc] init];
-    [self addOneChildViewController:destination image:[UIImage imageNamed:@"earth135"] selImage:[UIImage imageNamed:@"earth135_s"]];
+    [self addOneChildViewController:destination image:[UIImage imageNamed:@"house92"] selImage:[UIImage imageNamed:@"house92_s"]];
     destination.title = @"目的地";
     
     //消息
@@ -57,8 +57,10 @@
 {
 //    vc.navigationItem.title = title;
     vc.tabBarItem.image = image;
+    //保持图片不被渲染
     UIImage *originalImage = [selImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     vc.tabBarItem.selectedImage = originalImage;
+    
     [self addChildViewController:vc];
     //文字颜色
     self.tabBar.tintColor = [UIColor orangeColor];

@@ -14,8 +14,42 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdD-H8-CdI">
+                    <rect key="frame" x="20" y="147" width="560" height="54"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="dHK-Dm-xyR"/>
+                    </constraints>
+                    <string key="text">点击登录
+
+驾起七彩祥云主动去找你的盖世游侠吧~</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Usa-sa-0Pj">
+                    <rect key="frame" x="233" y="225" width="135" height="35"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="135" id="IhS-MW-h54"/>
+                        <constraint firstAttribute="height" constant="35" id="LS1-5b-4ST"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="Slice1.png"/>
+                </button>
+            </subviews>
             <animations/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.93812919463087252" green="0.93550755033557043" blue="0.95844693791946312" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="kdD-H8-CdI" secondAttribute="trailing" constant="20" id="GEY-qs-eOd"/>
+                <constraint firstItem="kdD-H8-CdI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="b7P-bI-MsG"/>
+                <constraint firstItem="kdD-H8-CdI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="147" id="bpQ-in-QnY"/>
+                <constraint firstItem="Usa-sa-0Pj" firstAttribute="top" secondItem="kdD-H8-CdI" secondAttribute="bottom" constant="24" id="cfa-Xr-B7v"/>
+                <constraint firstItem="Usa-sa-0Pj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="tcZ-Le-7cW"/>
+            </constraints>
         </view>
     </objects>
+    <resources>
+        <image name="Slice1.png" width="140" height="40"/>
+    </resources>
 </document>
