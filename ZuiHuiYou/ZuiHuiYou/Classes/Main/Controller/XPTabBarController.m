@@ -30,18 +30,17 @@
 - (void)addAllChildViewController
 {
     //首页
-    XPHomeTableController *home = [[XPHomeTableController alloc] init];
-    
+    UINavigationController *home = [[UINavigationController alloc] initWithRootViewController: [[XPHomeTableController alloc] init]];
     [self addOneChildViewController:home image:[UIImage imageNamed:@"earth72"] selImage:[UIImage imageNamed:@"earth72_s"]];
     home.title = @"首页";
     
     //目的地
-    XPDestinationTableController *destination = [[XPDestinationTableController alloc] init];
+    UINavigationController *destination = [[UINavigationController alloc] initWithRootViewController: [[XPDestinationTableController alloc] init]];
     [self addOneChildViewController:destination image:[UIImage imageNamed:@"house92"] selImage:[UIImage imageNamed:@"house92_s"]];
     destination.title = @"目的地";
     
     //消息
-    XPMessageViewController *message = [[XPMessageViewController alloc] init];
+    UINavigationController *message = [[UINavigationController alloc] initWithRootViewController: [[XPMessageViewController alloc] init]];
     [self addOneChildViewController:message image:[UIImage imageNamed:@"message5"] selImage:[UIImage imageNamed:@"message5_s"]];
     message.title = @"消息";
     

@@ -36,6 +36,9 @@
                         <constraint firstAttribute="height" constant="35" id="LS1-5b-4ST"/>
                     </constraints>
                     <state key="normal" title="Button" image="Slice1.png"/>
+                    <connections>
+                        <action selector="loginBtn:" destination="-1" eventType="touchUpInside" id="X8Q-P5-6sY"/>
+                    </connections>
                 </button>
             </subviews>
             <animations/>

@@ -43,6 +43,11 @@
 		D8A343791D1C114A00591781 /* message5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A3435F1D1C114A00591781 /* message5@3x.png */; };
 		D8A3437A1D1C114A00591781 /* Slice1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A343601D1C114A00591781 /* Slice1.png */; };
 		D8A3437B1D1C114A00591781 /* Slice1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A343611D1C114A00591781 /* Slice1@2x.png */; };
+		D8A3437F1D1C171300591781 /* XPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A3437D1D1C171300591781 /* XPLoginViewController.m */; };
+		D8A343801D1C171300591781 /* XPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A3437E1D1C171300591781 /* XPLoginViewController.xib */; };
+		D8A343841D1C20DE00591781 /* XPRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A343821D1C20DE00591781 /* XPRegisterViewController.m */; };
+		D8A343851D1C20DE00591781 /* XPRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A343831D1C20DE00591781 /* XPRegisterViewController.xib */; };
+		D8A343871D1C229F00591781 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A343861D1C229F00591781 /* wrong.png */; };
 		D8DEFEF51D1A575100AF2902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DEFEE71D1A575100AF2902 /* AppDelegate.m */; };
 		D8DEFF0E1D1A5B3A00AF2902 /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D8DEFEF71D1A5B3A00AF2902 /* icon-40.png */; };
 		D8DEFF0F1D1A5B3A00AF2902 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8DEFEF81D1A5B3A00AF2902 /* icon-40@2x.png */; };
@@ -115,6 +120,13 @@
 		D8A3435F1D1C114A00591781 /* message5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message5@3x.png"; sourceTree = "<group>"; };
 		D8A343601D1C114A00591781 /* Slice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slice1.png; sourceTree = "<group>"; };
 		D8A343611D1C114A00591781 /* Slice1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slice1@2x.png"; sourceTree = "<group>"; };
+		D8A3437C1D1C171300591781 /* XPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPLoginViewController.h; sourceTree = "<group>"; };
+		D8A3437D1D1C171300591781 /* XPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPLoginViewController.m; sourceTree = "<group>"; };
+		D8A3437E1D1C171300591781 /* XPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPLoginViewController.xib; sourceTree = "<group>"; };
+		D8A343811D1C20DE00591781 /* XPRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPRegisterViewController.h; sourceTree = "<group>"; };
+		D8A343821D1C20DE00591781 /* XPRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPRegisterViewController.m; sourceTree = "<group>"; };
+		D8A343831D1C20DE00591781 /* XPRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPRegisterViewController.xib; sourceTree = "<group>"; };
+		D8A343861D1C229F00591781 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
 		D8DEFEE61D1A575100AF2902 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8DEFEE71D1A575100AF2902 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D8DEFEF71D1A5B3A00AF2902 /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
@@ -214,6 +226,7 @@
 		D8A343091D1BEEDC00591781 /* tarBarIcon */ = {
 			isa = PBXGroup;
 			children = (
+				D8A343861D1C229F00591781 /* wrong.png */,
 				D8A343481D1C114A00591781 /* earth72_s.png */,
 				D8A343491D1C114A00591781 /* earth72_s@2x.png */,
 				D8A3434A1D1C114A00591781 /* earth72_s@3x.png */,
@@ -257,6 +270,12 @@
 		D8A343401D1C0F8800591781 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D8A3437C1D1C171300591781 /* XPLoginViewController.h */,
+				D8A3437D1D1C171300591781 /* XPLoginViewController.m */,
+				D8A3437E1D1C171300591781 /* XPLoginViewController.xib */,
+				D8A343811D1C20DE00591781 /* XPRegisterViewController.h */,
+				D8A343821D1C20DE00591781 /* XPRegisterViewController.m */,
+				D8A343831D1C20DE00591781 /* XPRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -581,6 +600,7 @@
 				D8A3436F1D1C114A00591781 /* male207_s@2x.png in Resources */,
 				D8DEFF111D1A5B3A00AF2902 /* icon-50@2x.png in Resources */,
 				D8A3436C1D1C114A00591781 /* house92@2x.png in Resources */,
+				D8A343871D1C229F00591781 /* wrong.png in Resources */,
 				D8DEFF231D1A5B3A00AF2902 /* Default~iphone.png in Resources */,
 				D8DEFF211D1A5B3A00AF2902 /* Default-Portrait~ipad.png in Resources */,
 				D8DEFF0E1D1A5B3A00AF2902 /* icon-40.png in Resources */,
@@ -620,9 +640,11 @@
 				D8DEFF191D1A5B3A00AF2902 /* icon-small.png in Resources */,
 				D8DEFF171D1A5B3A00AF2902 /* icon-76.png in Resources */,
 				D8A3437B1D1C114A00591781 /* Slice1@2x.png in Resources */,
+				D8A343851D1C20DE00591781 /* XPRegisterViewController.xib in Resources */,
 				D8A3436D1D1C114A00591781 /* house92@3x.png in Resources */,
 				D8DEFF1C1D1A5B3A00AF2902 /* icon@2x.png in Resources */,
 				D8A343641D1C114A00591781 /* earth72_s@3x.png in Resources */,
+				D8A343801D1C171300591781 /* XPLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,7 +705,9 @@
 			files = (
 				D8A342F01D1BA4F000591781 /* XPHomeTableController.m in Sources */,
 				D8A342EA1D1BA31500591781 /* XPTabBarController.m in Sources */,
+				D8A3437F1D1C171300591781 /* XPLoginViewController.m in Sources */,
 				D8A3433D1D1C064400591781 /* XPMessageViewController.m in Sources */,
+				D8A343841D1C20DE00591781 /* XPRegisterViewController.m in Sources */,
 				D8A342F31D1BA52A00591781 /* XPMeTableController.m in Sources */,
 				D8DEFEF51D1A575100AF2902 /* AppDelegate.m in Sources */,
 				D8404FDE1D1A4445001EE7DB /* main.m in Sources */,
