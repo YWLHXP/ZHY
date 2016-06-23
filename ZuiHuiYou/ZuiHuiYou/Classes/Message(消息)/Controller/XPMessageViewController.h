@@ -1,5 +1,5 @@
 //
-//  XPMessageTableController.h
+//  XPMessageViewController.h
 //  ZuiHuiYou
 //
 //  Created by dragon on 16/6/23.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XPMessageTableController : UITableViewController
+@interface XPMessageViewController : UIViewController
 
 @end
