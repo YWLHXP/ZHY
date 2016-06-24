@@ -74,6 +74,7 @@
 		D8E8022B1D1D004D00244F30 /* wrong.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802251D1D004D00244F30 /* wrong.png */; };
 		D8E8022C1D1D004D00244F30 /* wx-friend.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802261D1D004D00244F30 /* wx-friend.png */; };
 		D8E8022D1D1D004D00244F30 /* 第三方登录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802271D1D004D00244F30 /* 第三方登录@2x.png */; };
+		D8E802311D1D154400244F30 /* yx-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802301D1D154400244F30 /* yx-icon.png */; };
 		F1AC41D134076BC76A684205 /* libPods-ZuiHuiYou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1AE9B5B9D51C42907FF5A5 /* libPods-ZuiHuiYou.a */; };
 /* End PBXBuildFile section */
 
@@ -157,6 +158,7 @@
 		D8E802251D1D004D00244F30 /* wrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrong.png; sourceTree = "<group>"; };
 		D8E802261D1D004D00244F30 /* wx-friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wx-friend.png"; sourceTree = "<group>"; };
 		D8E802271D1D004D00244F30 /* 第三方登录@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第三方登录@2x.png"; sourceTree = "<group>"; };
+		D8E802301D1D154400244F30 /* yx-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yx-icon.png"; sourceTree = "<group>"; };
 		FA1AE9B5B9D51C42907FF5A5 /* libPods-ZuiHuiYou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZuiHuiYou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -542,6 +544,7 @@
 				D8E802251D1D004D00244F30 /* wrong.png */,
 				D8E802261D1D004D00244F30 /* wx-friend.png */,
 				D8E802271D1D004D00244F30 /* 第三方登录@2x.png */,
+				D8E802301D1D154400244F30 /* yx-icon.png */,
 			);
 			path = message;
 			sourceTree = "<group>";
@@ -665,6 +668,7 @@
 				D8A3436D1D1C114A00591781 /* house92@3x.png in Resources */,
 				D8DEFF1C1D1A5B3A00AF2902 /* icon@2x.png in Resources */,
 				D8A343641D1C114A00591781 /* earth72_s@3x.png in Resources */,
+				D8E802311D1D154400244F30 /* yx-icon.png in Resources */,
 				D8A343801D1C171300591781 /* XPLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

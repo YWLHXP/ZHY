@@ -149,17 +149,18 @@
                     </constraints>
                     <state key="normal" image="wx-friend.png"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uuf-74-CGB">
-                    <rect key="frame" x="25" y="521" width="550" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUX-zV-cNR">
+                    <rect key="frame" x="25" y="530" width="550" height="30"/>
                     <animations/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="30" id="gCC-BG-xB7"/>
+                        <constraint firstAttribute="height" constant="30" id="qAG-kV-zwy"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                    <inset key="imageEdgeInsets" minX="0.0" minY="5" maxX="5" maxY="5"/>
-                    <state key="normal" title="我是游侠，登录/注册请点击这里&gt;&gt;" image="yx-icon.png">
+                    <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="我是游侠，登录/注册请点这里&gt;&gt;" image="yx-icon.png">
                         <color key="titleColor" red="1" green="0.44943402119999998" blue="0.1534457132" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <state key="highlighted" title="我是游侠，登录/注册请点这里&gt;&gt;" image="yx-icon.png"/>
                 </button>
             </subviews>
             <animations/>
@@ -172,17 +173,17 @@
                 <constraint firstItem="5ig-OC-FH5" firstAttribute="top" secondItem="57Z-vT-0l6" secondAttribute="bottom" constant="20" id="CSO-Hz-mcj"/>
                 <constraint firstItem="whv-AV-5eI" firstAttribute="top" secondItem="iqY-he-M2p" secondAttribute="bottom" constant="53" id="HJH-9N-NwD"/>
                 <constraint firstItem="57Z-vT-0l6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="JLu-Nv-Rd7"/>
-                <constraint firstAttribute="bottom" secondItem="Uuf-74-CGB" secondAttribute="bottom" constant="49" id="Kuu-Wl-G01"/>
                 <constraint firstItem="iqY-he-M2p" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="34" id="O4K-3z-Zh5"/>
                 <constraint firstAttribute="trailing" secondItem="5ig-OC-FH5" secondAttribute="trailing" constant="25" id="Puv-xW-DpC"/>
+                <constraint firstAttribute="trailing" secondItem="tUX-zV-cNR" secondAttribute="trailing" constant="25" id="SiF-Pn-2yZ"/>
+                <constraint firstItem="tUX-zV-cNR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="UQE-fQ-NNx"/>
                 <constraint firstItem="Vjz-eR-8Kr" firstAttribute="top" secondItem="gQG-qq-vX6" secondAttribute="bottom" constant="53" id="XIO-Ry-wNN"/>
                 <constraint firstItem="Kzx-ou-k5M" firstAttribute="top" secondItem="5ig-OC-FH5" secondAttribute="bottom" constant="83" id="YrI-kf-g15"/>
                 <constraint firstItem="5Gd-sV-A68" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="a9T-fG-jAN"/>
                 <constraint firstItem="gQG-qq-vX6" firstAttribute="top" secondItem="5ig-OC-FH5" secondAttribute="bottom" constant="22" id="d82-kS-2xM"/>
-                <constraint firstAttribute="trailing" secondItem="Uuf-74-CGB" secondAttribute="trailing" constant="25" id="e5o-nE-jRd"/>
-                <constraint firstItem="Uuf-74-CGB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="e6G-a8-jum"/>
                 <constraint firstAttribute="trailing" secondItem="Vjz-eR-8Kr" secondAttribute="trailing" constant="25" id="fub-0T-YNx"/>
                 <constraint firstAttribute="trailing" secondItem="57Z-vT-0l6" secondAttribute="trailing" constant="24" id="jhb-Tk-ctA"/>
+                <constraint firstAttribute="bottom" secondItem="tUX-zV-cNR" secondAttribute="bottom" constant="40" id="qt5-mq-Q2O"/>
                 <constraint firstItem="iqY-he-M2p" firstAttribute="top" secondItem="5ig-OC-FH5" secondAttribute="bottom" constant="22" id="uS5-Fn-jpR"/>
                 <constraint firstItem="5Gd-sV-A68" firstAttribute="top" secondItem="Kzx-ou-k5M" secondAttribute="bottom" constant="31" id="xp2-oF-Yf5"/>
                 <constraint firstItem="whv-AV-5eI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="zFn-g5-8gN"/>
@@ -192,6 +193,6 @@
     </objects>
     <resources>
         <image name="wx-friend.png" width="120" height="120"/>
-        <image name="yx-icon.png" width="48" height="48"/>
+        <image name="yx-icon.png" width="20" height="20"/>
     </resources>
 </document>
