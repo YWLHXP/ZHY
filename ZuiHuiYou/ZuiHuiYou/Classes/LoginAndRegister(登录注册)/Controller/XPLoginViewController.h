@@ -10,6 +10,4 @@
 
 @interface XPLoginViewController : UIViewController
 
-+(XPLoginViewController *)sharedLoginVC;
-
 @end
