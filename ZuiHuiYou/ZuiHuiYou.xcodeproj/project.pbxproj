@@ -11,10 +11,16 @@
 		D8404FE91D1A4445001EE7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8404FE81D1A4445001EE7DB /* Assets.xcassets */; };
 		D8404FEC1D1A4445001EE7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8404FEA1D1A4445001EE7DB /* LaunchScreen.storyboard */; };
 		D8404FF41D1A446C001EE7DB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D8404FF31D1A446C001EE7DB /* Podfile */; };
+		D841D8C81D1FDD5600FC61FD /* open1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D841D8C41D1FDD5600FC61FD /* open1.jpg */; };
+		D841D8C91D1FDD5600FC61FD /* open2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D841D8C51D1FDD5600FC61FD /* open2.jpg */; };
+		D841D8CA1D1FDD5600FC61FD /* open3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D841D8C61D1FDD5600FC61FD /* open3.jpg */; };
+		D841D8CB1D1FDD5600FC61FD /* open4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D841D8C71D1FDD5600FC61FD /* open4.jpg */; };
+		D853703C1D1FCFCC00C43C9E /* XPWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D853703B1D1FCFCC00C43C9E /* XPWelcomeViewController.m */; };
+		D85370451D1FDA5300C43C9E /* XPYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85370431D1FDA5300C43C9E /* XPYXViewController.m */; };
+		D85370461D1FDA5300C43C9E /* XPYXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85370441D1FDA5300C43C9E /* XPYXViewController.xib */; };
 		D8A342EA1D1BA31500591781 /* XPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A342E91D1BA31500591781 /* XPTabBarController.m */; };
 		D8A342ED1D1BA4DB00591781 /* XPDestinationTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A342EC1D1BA4DB00591781 /* XPDestinationTableController.m */; };
 		D8A342F01D1BA4F000591781 /* XPHomeTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A342EF1D1BA4F000591781 /* XPHomeTableController.m */; };
-		D8A342F31D1BA52A00591781 /* XPMeTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A342F21D1BA52A00591781 /* XPMeTableController.m */; };
 		D8A3433D1D1C064400591781 /* XPMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A3433B1D1C064400591781 /* XPMessageViewController.m */; };
 		D8A3433E1D1C064400591781 /* XPMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A3433C1D1C064400591781 /* XPMessageViewController.xib */; };
 		D8A343621D1C114A00591781 /* earth72_s.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A343481D1C114A00591781 /* earth72_s.png */; };
@@ -75,6 +81,17 @@
 		D8E8022C1D1D004D00244F30 /* wx-friend.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802261D1D004D00244F30 /* wx-friend.png */; };
 		D8E8022D1D1D004D00244F30 /* 第三方登录@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802271D1D004D00244F30 /* 第三方登录@2x.png */; };
 		D8E802311D1D154400244F30 /* yx-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802301D1D154400244F30 /* yx-icon.png */; };
+		D8E8023D1D1D25FE00244F30 /* XPMeTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E8023B1D1D25FE00244F30 /* XPMeTableController.m */; };
+		D8E8023E1D1D25FE00244F30 /* XPMeTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8E8023C1D1D25FE00244F30 /* XPMeTableController.xib */; };
+		D8E802491D1D2CB300244F30 /* bg_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8E802401D1D2CB300244F30 /* bg_icon.jpg */; };
+		D8E8024A1D1D2CB300244F30 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802411D1D2CB300244F30 /* box.png */; };
+		D8E8024B1D1D2CB300244F30 /* defaultIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8E802421D1D2CB300244F30 /* defaultIcon.jpg */; };
+		D8E8024C1D1D2CB300244F30 /* order.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802431D1D2CB300244F30 /* order.png */; };
+		D8E8024D1D1D2CB300244F30 /* qr.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802441D1D2CB300244F30 /* qr.png */; };
+		D8E8024E1D1D2CB300244F30 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802451D1D2CB300244F30 /* setting.png */; };
+		D8E8024F1D1D2CB300244F30 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802461D1D2CB300244F30 /* share.png */; };
+		D8E802501D1D2CB300244F30 /* trip.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802471D1D2CB300244F30 /* trip.png */; };
+		D8E802511D1D2CB300244F30 /* youhui.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E802481D1D2CB300244F30 /* youhui.png */; };
 		F1AC41D134076BC76A684205 /* libPods-ZuiHuiYou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1AE9B5B9D51C42907FF5A5 /* libPods-ZuiHuiYou.a */; };
 /* End PBXBuildFile section */
 
@@ -87,14 +104,22 @@
 		D8404FEB1D1A4445001EE7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8404FED1D1A4445001EE7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8404FF31D1A446C001EE7DB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D841D8C41D1FDD5600FC61FD /* open1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open1.jpg; sourceTree = "<group>"; };
+		D841D8C51D1FDD5600FC61FD /* open2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open2.jpg; sourceTree = "<group>"; };
+		D841D8C61D1FDD5600FC61FD /* open3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open3.jpg; sourceTree = "<group>"; };
+		D841D8C71D1FDD5600FC61FD /* open4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open4.jpg; sourceTree = "<group>"; };
+		D85370391D1FADEE00C43C9E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D853703A1D1FCFCC00C43C9E /* XPWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPWelcomeViewController.h; sourceTree = "<group>"; };
+		D853703B1D1FCFCC00C43C9E /* XPWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPWelcomeViewController.m; sourceTree = "<group>"; };
+		D85370421D1FDA5300C43C9E /* XPYXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPYXViewController.h; sourceTree = "<group>"; };
+		D85370431D1FDA5300C43C9E /* XPYXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPYXViewController.m; sourceTree = "<group>"; };
+		D85370441D1FDA5300C43C9E /* XPYXViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPYXViewController.xib; sourceTree = "<group>"; };
 		D8A342E81D1BA31500591781 /* XPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPTabBarController.h; sourceTree = "<group>"; };
 		D8A342E91D1BA31500591781 /* XPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPTabBarController.m; sourceTree = "<group>"; };
 		D8A342EB1D1BA4DB00591781 /* XPDestinationTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDestinationTableController.h; sourceTree = "<group>"; };
 		D8A342EC1D1BA4DB00591781 /* XPDestinationTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPDestinationTableController.m; sourceTree = "<group>"; };
 		D8A342EE1D1BA4F000591781 /* XPHomeTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPHomeTableController.h; sourceTree = "<group>"; };
 		D8A342EF1D1BA4F000591781 /* XPHomeTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPHomeTableController.m; sourceTree = "<group>"; };
-		D8A342F11D1BA52A00591781 /* XPMeTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMeTableController.h; sourceTree = "<group>"; };
-		D8A342F21D1BA52A00591781 /* XPMeTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMeTableController.m; sourceTree = "<group>"; };
 		D8A3433A1D1C064400591781 /* XPMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMessageViewController.h; sourceTree = "<group>"; };
 		D8A3433B1D1C064400591781 /* XPMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMessageViewController.m; sourceTree = "<group>"; };
 		D8A3433C1D1C064400591781 /* XPMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPMessageViewController.xib; sourceTree = "<group>"; };
@@ -159,6 +184,18 @@
 		D8E802261D1D004D00244F30 /* wx-friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wx-friend.png"; sourceTree = "<group>"; };
 		D8E802271D1D004D00244F30 /* 第三方登录@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "第三方登录@2x.png"; sourceTree = "<group>"; };
 		D8E802301D1D154400244F30 /* yx-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yx-icon.png"; sourceTree = "<group>"; };
+		D8E8023A1D1D25FE00244F30 /* XPMeTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMeTableController.h; sourceTree = "<group>"; };
+		D8E8023B1D1D25FE00244F30 /* XPMeTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMeTableController.m; sourceTree = "<group>"; };
+		D8E8023C1D1D25FE00244F30 /* XPMeTableController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPMeTableController.xib; sourceTree = "<group>"; };
+		D8E802401D1D2CB300244F30 /* bg_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_icon.jpg; sourceTree = "<group>"; };
+		D8E802411D1D2CB300244F30 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		D8E802421D1D2CB300244F30 /* defaultIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultIcon.jpg; sourceTree = "<group>"; };
+		D8E802431D1D2CB300244F30 /* order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = order.png; sourceTree = "<group>"; };
+		D8E802441D1D2CB300244F30 /* qr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr.png; sourceTree = "<group>"; };
+		D8E802451D1D2CB300244F30 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		D8E802461D1D2CB300244F30 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		D8E802471D1D2CB300244F30 /* trip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trip.png; sourceTree = "<group>"; };
+		D8E802481D1D2CB300244F30 /* youhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youhui.png; sourceTree = "<group>"; };
 		FA1AE9B5B9D51C42907FF5A5 /* libPods-ZuiHuiYou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZuiHuiYou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -227,8 +264,20 @@
 				D8404FEA1D1A4445001EE7DB /* LaunchScreen.storyboard */,
 				D8404FED1D1A4445001EE7DB /* Info.plist */,
 				D8404FDD1D1A4445001EE7DB /* main.m */,
+				D85370391D1FADEE00C43C9E /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D841D8C31D1FDD5600FC61FD /* welcome */ = {
+			isa = PBXGroup;
+			children = (
+				D841D8C41D1FDD5600FC61FD /* open1.jpg */,
+				D841D8C51D1FDD5600FC61FD /* open2.jpg */,
+				D841D8C61D1FDD5600FC61FD /* open3.jpg */,
+				D841D8C71D1FDD5600FC61FD /* open4.jpg */,
+			);
+			path = welcome;
 			sourceTree = "<group>";
 		};
 		D8A343091D1BEEDC00591781 /* tarBarIcon */ = {
@@ -281,6 +330,11 @@
 				D8A343811D1C20DE00591781 /* XPRegisterViewController.h */,
 				D8A343821D1C20DE00591781 /* XPRegisterViewController.m */,
 				D8A343831D1C20DE00591781 /* XPRegisterViewController.xib */,
+				D853703A1D1FCFCC00C43C9E /* XPWelcomeViewController.h */,
+				D853703B1D1FCFCC00C43C9E /* XPWelcomeViewController.m */,
+				D85370421D1FDA5300C43C9E /* XPYXViewController.h */,
+				D85370431D1FDA5300C43C9E /* XPYXViewController.m */,
+				D85370441D1FDA5300C43C9E /* XPYXViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -434,8 +488,9 @@
 		D8DEFEED1D1A575100AF2902 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D8A342F11D1BA52A00591781 /* XPMeTableController.h */,
-				D8A342F21D1BA52A00591781 /* XPMeTableController.m */,
+				D8E8023A1D1D25FE00244F30 /* XPMeTableController.h */,
+				D8E8023B1D1D25FE00244F30 /* XPMeTableController.m */,
+				D8E8023C1D1D25FE00244F30 /* XPMeTableController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -495,6 +550,8 @@
 				D8DEFF061D1A5B3A00AF2902 /* LaunchScreen */,
 				D8E802211D1D004D00244F30 /* message */,
 				D8A343091D1BEEDC00591781 /* tarBarIcon */,
+				D8E8023F1D1D2CB300244F30 /* me */,
+				D841D8C31D1FDD5600FC61FD /* welcome */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -547,6 +604,22 @@
 				D8E802301D1D154400244F30 /* yx-icon.png */,
 			);
 			path = message;
+			sourceTree = "<group>";
+		};
+		D8E8023F1D1D2CB300244F30 /* me */ = {
+			isa = PBXGroup;
+			children = (
+				D8E802401D1D2CB300244F30 /* bg_icon.jpg */,
+				D8E802411D1D2CB300244F30 /* box.png */,
+				D8E802421D1D2CB300244F30 /* defaultIcon.jpg */,
+				D8E802431D1D2CB300244F30 /* order.png */,
+				D8E802441D1D2CB300244F30 /* qr.png */,
+				D8E802451D1D2CB300244F30 /* setting.png */,
+				D8E802461D1D2CB300244F30 /* share.png */,
+				D8E802471D1D2CB300244F30 /* trip.png */,
+				D8E802481D1D2CB300244F30 /* youhui.png */,
+			);
+			path = me;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -611,11 +684,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E8024D1D1D2CB300244F30 /* qr.png in Resources */,
 				D8DEFF221D1A5B3A00AF2902 /* Default@2x~iphone.png in Resources */,
 				D8A3436A1D1C114A00591781 /* house92_s@3x.png in Resources */,
 				D8A343621D1C114A00591781 /* earth72_s.png in Resources */,
+				D8E802511D1D2CB300244F30 /* youhui.png in Resources */,
 				D8DEFF141D1A5B3A00AF2902 /* icon-60@3x.png in Resources */,
 				D8A343681D1C114A00591781 /* house92_s.png in Resources */,
+				D85370461D1FDA5300C43C9E /* XPYXViewController.xib in Resources */,
 				D8E802291D1D004D00244F30 /* Slice1@2x.png in Resources */,
 				D8A3433E1D1C064400591781 /* XPMessageViewController.xib in Resources */,
 				D8A343631D1C114A00591781 /* earth72_s@2x.png in Resources */,
@@ -623,9 +699,11 @@
 				D8DEFF111D1A5B3A00AF2902 /* icon-50@2x.png in Resources */,
 				D8E802281D1D004D00244F30 /* Slice1.png in Resources */,
 				D8A3436C1D1C114A00591781 /* house92@2x.png in Resources */,
+				D841D8C81D1FDD5600FC61FD /* open1.jpg in Resources */,
 				D8DEFF231D1A5B3A00AF2902 /* Default~iphone.png in Resources */,
 				D8DEFF211D1A5B3A00AF2902 /* Default-Portrait~ipad.png in Resources */,
 				D8DEFF0E1D1A5B3A00AF2902 /* icon-40.png in Resources */,
+				D841D8CA1D1FDD5600FC61FD /* open3.jpg in Resources */,
 				D8A343671D1C114A00591781 /* earth72@3x.png in Resources */,
 				D8DEFF151D1A5B3A00AF2902 /* icon-72.png in Resources */,
 				D8E8022D1D1D004D00244F30 /* 第三方登录@2x.png in Resources */,
@@ -635,24 +713,34 @@
 				D8A343651D1C114A00591781 /* earth72.png in Resources */,
 				D8A343741D1C114A00591781 /* message5_s.png in Resources */,
 				D8A343701D1C114A00591781 /* male207_s@3x.png in Resources */,
+				D8E8024C1D1D2CB300244F30 /* order.png in Resources */,
 				D8404FEC1D1A4445001EE7DB /* LaunchScreen.storyboard in Resources */,
 				D8A343711D1C114A00591781 /* male207.png in Resources */,
 				D8A343751D1C114A00591781 /* message5_s@2x.png in Resources */,
 				D8A343791D1C114A00591781 /* message5@3x.png in Resources */,
 				D8404FE91D1A4445001EE7DB /* Assets.xcassets in Resources */,
 				D8A3436B1D1C114A00591781 /* house92.png in Resources */,
+				D8E802491D1D2CB300244F30 /* bg_icon.jpg in Resources */,
 				D8A343771D1C114A00591781 /* message5.png in Resources */,
 				D8404FF41D1A446C001EE7DB /* Podfile in Resources */,
 				D8DEFF131D1A5B3A00AF2902 /* icon-60@2x.png in Resources */,
 				D8A343761D1C114A00591781 /* message5_s@3x.png in Resources */,
 				D8E8022B1D1D004D00244F30 /* wrong.png in Resources */,
+				D8E802501D1D2CB300244F30 /* trip.png in Resources */,
+				D8E8024E1D1D2CB300244F30 /* setting.png in Resources */,
 				D8DEFF0F1D1A5B3A00AF2902 /* icon-40@2x.png in Resources */,
+				D8E8024B1D1D2CB300244F30 /* defaultIcon.jpg in Resources */,
 				D8A343781D1C114A00591781 /* message5@2x.png in Resources */,
 				D8DEFF161D1A5B3A00AF2902 /* icon-72@2x.png in Resources */,
+				D8E8023E1D1D25FE00244F30 /* XPMeTableController.xib in Resources */,
 				D8E8022C1D1D004D00244F30 /* wx-friend.png in Resources */,
 				D8DEFF1F1D1A5B3A00AF2902 /* Default-736h.png in Resources */,
+				D8E8024F1D1D2CB300244F30 /* share.png in Resources */,
 				D8A343731D1C114A00591781 /* male207@3x.png in Resources */,
+				D841D8C91D1FDD5600FC61FD /* open2.jpg in Resources */,
+				D8E8024A1D1D2CB300244F30 /* box.png in Resources */,
 				D8DEFF101D1A5B3A00AF2902 /* icon-50.png in Resources */,
+				D841D8CB1D1FDD5600FC61FD /* open4.jpg in Resources */,
 				D8DEFF1B1D1A5B3A00AF2902 /* icon.png in Resources */,
 				D8DEFF1D1D1A5B3A00AF2902 /* Default-568h@2x~iphone.png in Resources */,
 				D8A343721D1C114A00591781 /* male207@2x.png in Resources */,
@@ -733,10 +821,12 @@
 				D8A3437F1D1C171300591781 /* XPLoginViewController.m in Sources */,
 				D8A3433D1D1C064400591781 /* XPMessageViewController.m in Sources */,
 				D8A343841D1C20DE00591781 /* XPRegisterViewController.m in Sources */,
-				D8A342F31D1BA52A00591781 /* XPMeTableController.m in Sources */,
+				D85370451D1FDA5300C43C9E /* XPYXViewController.m in Sources */,
+				D8E8023D1D1D25FE00244F30 /* XPMeTableController.m in Sources */,
 				D8DEFEF51D1A575100AF2902 /* AppDelegate.m in Sources */,
 				D8404FDE1D1A4445001EE7DB /* main.m in Sources */,
 				D8A342ED1D1BA4DB00591781 /* XPDestinationTableController.m in Sources */,
+				D853703C1D1FCFCC00C43C9E /* XPWelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -843,6 +933,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZuiHuiYou/PrefixHeader.pch";
 				INFOPLIST_FILE = ZuiHuiYou/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -859,6 +951,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZuiHuiYou/PrefixHeader.pch";
 				INFOPLIST_FILE = ZuiHuiYou/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

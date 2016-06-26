@@ -10,4 +10,5 @@
 
 @interface XPLoginViewController : UIViewController
 
++(void)presentFromViewController:(UIViewController *)vc;
 @end

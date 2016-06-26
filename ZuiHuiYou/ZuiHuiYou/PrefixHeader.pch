@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  ZuiHuiYou
+//
+//  Created by dragon on 16/6/26.
+//  Copyright © 2016年 win. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define XPScreenWidth [UIScreen mainScreen].bounds.size.width
+#define XPScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */

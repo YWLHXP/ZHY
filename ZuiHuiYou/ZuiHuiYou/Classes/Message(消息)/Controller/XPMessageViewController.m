@@ -15,11 +15,7 @@
 
 @implementation XPMessageViewController
 - (IBAction)loginBtn:(UIButton *)sender {
-    
-    XPLoginViewController *loginVC = [[XPLoginViewController alloc] init];
-    
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
-    [self presentViewController:nav animated:YES completion:nil];
+    [XPLoginViewController presentFromViewController:self];
 }
 
 - (void)viewDidLoad {

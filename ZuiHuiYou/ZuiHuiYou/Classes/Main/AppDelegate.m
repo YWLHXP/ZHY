@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "XPTabBarController.h"
+#import "XPWelcomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +21,7 @@
     //创建窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     // 设置窗口的根控制器
-    self.window.rootViewController = [[XPTabBarController alloc] init];
+    self.window.rootViewController = [[XPWelcomeViewController alloc] init];
     
     // 显示窗口
     [self.window makeKeyAndVisible];

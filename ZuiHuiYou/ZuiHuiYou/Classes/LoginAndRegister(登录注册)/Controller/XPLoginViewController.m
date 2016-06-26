@@ -9,7 +9,6 @@
 #import "XPLoginViewController.h"
 #import "XPRegisterViewController.h"
 
-
 @interface XPLoginViewController ()
 //手机输入框
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
@@ -20,6 +19,12 @@
 
 @implementation XPLoginViewController
 
++(void)presentFromViewController:(UIViewController *)vc
+{
+    XPLoginViewController *loginVC = [[XPLoginViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
+    [vc presentViewController:nav animated:YES completion:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -77,5 +82,23 @@
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [self.view endEditing:YES];
+}
+
+#pragma mark -快速注册
+- (IBAction)soonRegister:(id)sender {
+    XPRegisterViewController *registerVC = [[XPRegisterViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:registerVC];
+    [self.navigationController presentViewController:nav animated:YES completion:nil];
+    
+}
+
+#pragma mark -账号密码登录
+- (IBAction)accountAndPasswordLogin:(id)sender {
+    
+}
+
+#pragma mark -我是游侠
+- (IBAction)IamYX:(id)sender {
+    
 }
 @end
