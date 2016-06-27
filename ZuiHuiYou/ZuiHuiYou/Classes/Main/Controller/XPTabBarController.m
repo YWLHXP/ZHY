@@ -11,6 +11,7 @@
 #import "XPDestinationTableController.h"
 #import "XPMessageViewController.h"
 #import "XPMeTableController.h"
+#import "XPNavigationController.h"
 
 @interface XPTabBarController ()
 
@@ -45,7 +46,7 @@
     message.title = @"消息";
     
     //我
-    XPMeTableController *me = [[XPMeTableController alloc] init];
+    XPNavigationController *me = [[XPNavigationController alloc] initWithRootViewController: [[XPMeTableController alloc] init]];
     [self addOneChildViewController:me image:[UIImage imageNamed:@"male207"] selImage:[UIImage imageNamed:@"male207_s"]];
     me.title = @"我";
     

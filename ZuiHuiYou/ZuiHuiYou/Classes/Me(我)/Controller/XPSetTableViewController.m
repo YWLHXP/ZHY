@@ -7,6 +7,8 @@
 //
 
 #import "XPSetTableViewController.h"
+#import "XPOpinionViewController.h"
+#import "XPWelcomeViewController.h"
 
 @interface XPSetTableViewController ()
 @property (strong, nonatomic) IBOutlet UITableViewCell *score;
@@ -21,9 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"设置";
+    self.tableView.backgroundColor = [UIColor colorWithRed:239/255.0 green:239/255.0 blue:244/255.0 alpha:1];
 }
-
-
 
 #pragma mark - Table view data source
 
@@ -52,6 +53,33 @@
         return self.lunch;
     }
     return self.banben;
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 0) {
+        NSLog(@"跳到一个网页");
+    }else if(indexPath.row == 1)
+    {
+        [self.navigationController pushViewController:[XPOpinionViewController new] animated:YES];
+    }else if(indexPath.row == 2)
+    {
+        NSLog(@"欢迎");
+    }
+}
+
+#pragma mark -显示导航栏
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:nil];
+}
+
+#pragma mark -隐藏状态栏
+- (BOOL)prefersStatusBarHidden
+{
+    return YES; // 返回NO表示要显示，返回YES将hiden
 }
 
 @end

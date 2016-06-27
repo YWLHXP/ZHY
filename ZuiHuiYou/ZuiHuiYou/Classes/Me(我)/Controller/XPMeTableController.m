@@ -9,6 +9,8 @@
 #import "XPMeTableController.h"
 #import "XPLoginViewController.h"
 #import "XPSetTableViewController.h"
+#import "XPQRViewController.h"
+
 
 @interface XPMeTableController ()
 @property (strong, nonatomic) IBOutlet UITableViewCell *myOrder;
@@ -147,14 +149,27 @@
                [XPLoginViewController presentFromViewController:self];
             }else
             {
-                NSLog(@"宝宝饿了");
+                [self presentViewController:[XPQRViewController new] animated:YES completion:nil];
             }
             break;
         default:
-            NSLog(@"为毛不出来？？？");
+            [self.navigationController pushViewController:[XPSetTableViewController new] animated:YES];
             break;
     }
 
 }
 
+
+#pragma mark -隐藏导航栏
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:nil];
+}
+
+#pragma mark -隐藏状态栏
+- (BOOL)prefersStatusBarHidden
+{
+    return YES; // 返回NO表示要显示，返回YES将hiden
+}
 @end

@@ -136,4 +136,8 @@
     [self.navigationController presentViewController:[[UINavigationController alloc] initWithRootViewController:[[XPForgetPwdViewController alloc] init]] animated:YES completion:nil];
 }
 
+- (IBAction)weixinBtn:(id)sender {
+    NSLog(@"weixinChat");
+}
+
 @end

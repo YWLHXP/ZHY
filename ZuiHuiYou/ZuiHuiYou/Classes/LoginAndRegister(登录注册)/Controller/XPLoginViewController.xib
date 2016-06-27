@@ -178,7 +178,7 @@
                         <action selector="yxBtn:" destination="-1" eventType="touchUpInside" id="NIT-Xe-Frh"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Gd-sV-A68">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Gd-sV-A68" userLabel="微信">
                     <rect key="frame" x="278" y="386" width="45" height="45"/>
                     <animations/>
                     <constraints>
@@ -186,6 +186,9 @@
                         <constraint firstAttribute="width" constant="45" id="tMp-D0-8OG"/>
                     </constraints>
                     <state key="normal" image="wx-friend.png"/>
+                    <connections>
+                        <action selector="weixinBtn:" destination="-1" eventType="touchUpInside" id="hxg-aK-Pe2"/>
+                    </connections>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="moq-pE-DXa">
                     <rect key="frame" x="0.0" y="83" width="600" height="170"/>
