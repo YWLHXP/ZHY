@@ -8,6 +8,7 @@
 
 #import "XPMeTableController.h"
 #import "XPLoginViewController.h"
+#import "XPSetTableViewController.h"
 
 @interface XPMeTableController ()
 @property (strong, nonatomic) IBOutlet UITableViewCell *myOrder;
@@ -146,11 +147,11 @@
                [XPLoginViewController presentFromViewController:self];
             }else
             {
-                return ;
+                NSLog(@"宝宝饿了");
             }
             break;
         default:
-            
+            NSLog(@"为毛不出来？？？");
             break;
     }
 

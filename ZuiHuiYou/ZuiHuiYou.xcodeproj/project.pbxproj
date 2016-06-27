@@ -11,13 +11,17 @@
 		D8404FE91D1A4445001EE7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8404FE81D1A4445001EE7DB /* Assets.xcassets */; };
 		D8404FEC1D1A4445001EE7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8404FEA1D1A4445001EE7DB /* LaunchScreen.storyboard */; };
 		D8404FF41D1A446C001EE7DB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D8404FF31D1A446C001EE7DB /* Podfile */; };
+		D840C4791D20C57800D2363E /* XPYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D840C4771D20C57800D2363E /* XPYXViewController.m */; };
+		D840C47A1D20C57800D2363E /* XPYXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D840C4781D20C57800D2363E /* XPYXViewController.xib */; };
+		D840C47E1D20C94500D2363E /* XPForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D840C47C1D20C94500D2363E /* XPForgetPwdViewController.m */; };
+		D840C47F1D20C94500D2363E /* XPForgetPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D840C47D1D20C94500D2363E /* XPForgetPwdViewController.xib */; };
+		D840C4831D20D08400D2363E /* XPSetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D840C4811D20D08300D2363E /* XPSetTableViewController.m */; };
+		D840C4841D20D08400D2363E /* XPSetTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D840C4821D20D08300D2363E /* XPSetTableViewController.xib */; };
 		D841D8C81D1FDD5600FC61FD /* open1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D841D8C41D1FDD5600FC61FD /* open1.jpg */; };
 		D841D8C91D1FDD5600FC61FD /* open2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D841D8C51D1FDD5600FC61FD /* open2.jpg */; };
 		D841D8CA1D1FDD5600FC61FD /* open3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D841D8C61D1FDD5600FC61FD /* open3.jpg */; };
 		D841D8CB1D1FDD5600FC61FD /* open4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D841D8C71D1FDD5600FC61FD /* open4.jpg */; };
 		D853703C1D1FCFCC00C43C9E /* XPWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D853703B1D1FCFCC00C43C9E /* XPWelcomeViewController.m */; };
-		D85370451D1FDA5300C43C9E /* XPYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85370431D1FDA5300C43C9E /* XPYXViewController.m */; };
-		D85370461D1FDA5300C43C9E /* XPYXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85370441D1FDA5300C43C9E /* XPYXViewController.xib */; };
 		D8A342EA1D1BA31500591781 /* XPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A342E91D1BA31500591781 /* XPTabBarController.m */; };
 		D8A342ED1D1BA4DB00591781 /* XPDestinationTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A342EC1D1BA4DB00591781 /* XPDestinationTableController.m */; };
 		D8A342F01D1BA4F000591781 /* XPHomeTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A342EF1D1BA4F000591781 /* XPHomeTableController.m */; };
@@ -104,6 +108,15 @@
 		D8404FEB1D1A4445001EE7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8404FED1D1A4445001EE7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8404FF31D1A446C001EE7DB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D840C4761D20C57800D2363E /* XPYXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPYXViewController.h; sourceTree = "<group>"; };
+		D840C4771D20C57800D2363E /* XPYXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPYXViewController.m; sourceTree = "<group>"; };
+		D840C4781D20C57800D2363E /* XPYXViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPYXViewController.xib; sourceTree = "<group>"; };
+		D840C47B1D20C94500D2363E /* XPForgetPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPForgetPwdViewController.h; sourceTree = "<group>"; };
+		D840C47C1D20C94500D2363E /* XPForgetPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPForgetPwdViewController.m; sourceTree = "<group>"; };
+		D840C47D1D20C94500D2363E /* XPForgetPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPForgetPwdViewController.xib; sourceTree = "<group>"; };
+		D840C4801D20D08300D2363E /* XPSetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPSetTableViewController.h; sourceTree = "<group>"; };
+		D840C4811D20D08300D2363E /* XPSetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPSetTableViewController.m; sourceTree = "<group>"; };
+		D840C4821D20D08300D2363E /* XPSetTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPSetTableViewController.xib; sourceTree = "<group>"; };
 		D841D8C41D1FDD5600FC61FD /* open1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open1.jpg; sourceTree = "<group>"; };
 		D841D8C51D1FDD5600FC61FD /* open2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open2.jpg; sourceTree = "<group>"; };
 		D841D8C61D1FDD5600FC61FD /* open3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open3.jpg; sourceTree = "<group>"; };
@@ -111,9 +124,6 @@
 		D85370391D1FADEE00C43C9E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D853703A1D1FCFCC00C43C9E /* XPWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPWelcomeViewController.h; sourceTree = "<group>"; };
 		D853703B1D1FCFCC00C43C9E /* XPWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPWelcomeViewController.m; sourceTree = "<group>"; };
-		D85370421D1FDA5300C43C9E /* XPYXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPYXViewController.h; sourceTree = "<group>"; };
-		D85370431D1FDA5300C43C9E /* XPYXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPYXViewController.m; sourceTree = "<group>"; };
-		D85370441D1FDA5300C43C9E /* XPYXViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPYXViewController.xib; sourceTree = "<group>"; };
 		D8A342E81D1BA31500591781 /* XPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPTabBarController.h; sourceTree = "<group>"; };
 		D8A342E91D1BA31500591781 /* XPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPTabBarController.m; sourceTree = "<group>"; };
 		D8A342EB1D1BA4DB00591781 /* XPDestinationTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPDestinationTableController.h; sourceTree = "<group>"; };
@@ -332,9 +342,12 @@
 				D8A343831D1C20DE00591781 /* XPRegisterViewController.xib */,
 				D853703A1D1FCFCC00C43C9E /* XPWelcomeViewController.h */,
 				D853703B1D1FCFCC00C43C9E /* XPWelcomeViewController.m */,
-				D85370421D1FDA5300C43C9E /* XPYXViewController.h */,
-				D85370431D1FDA5300C43C9E /* XPYXViewController.m */,
-				D85370441D1FDA5300C43C9E /* XPYXViewController.xib */,
+				D840C4761D20C57800D2363E /* XPYXViewController.h */,
+				D840C4771D20C57800D2363E /* XPYXViewController.m */,
+				D840C4781D20C57800D2363E /* XPYXViewController.xib */,
+				D840C47B1D20C94500D2363E /* XPForgetPwdViewController.h */,
+				D840C47C1D20C94500D2363E /* XPForgetPwdViewController.m */,
+				D840C47D1D20C94500D2363E /* XPForgetPwdViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -491,6 +504,9 @@
 				D8E8023A1D1D25FE00244F30 /* XPMeTableController.h */,
 				D8E8023B1D1D25FE00244F30 /* XPMeTableController.m */,
 				D8E8023C1D1D25FE00244F30 /* XPMeTableController.xib */,
+				D840C4801D20D08300D2363E /* XPSetTableViewController.h */,
+				D840C4811D20D08300D2363E /* XPSetTableViewController.m */,
+				D840C4821D20D08300D2363E /* XPSetTableViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -691,7 +707,6 @@
 				D8E802511D1D2CB300244F30 /* youhui.png in Resources */,
 				D8DEFF141D1A5B3A00AF2902 /* icon-60@3x.png in Resources */,
 				D8A343681D1C114A00591781 /* house92_s.png in Resources */,
-				D85370461D1FDA5300C43C9E /* XPYXViewController.xib in Resources */,
 				D8E802291D1D004D00244F30 /* Slice1@2x.png in Resources */,
 				D8A3433E1D1C064400591781 /* XPMessageViewController.xib in Resources */,
 				D8A343631D1C114A00591781 /* earth72_s@2x.png in Resources */,
@@ -718,6 +733,7 @@
 				D8A343711D1C114A00591781 /* male207.png in Resources */,
 				D8A343751D1C114A00591781 /* message5_s@2x.png in Resources */,
 				D8A343791D1C114A00591781 /* message5@3x.png in Resources */,
+				D840C47A1D20C57800D2363E /* XPYXViewController.xib in Resources */,
 				D8404FE91D1A4445001EE7DB /* Assets.xcassets in Resources */,
 				D8A3436B1D1C114A00591781 /* house92.png in Resources */,
 				D8E802491D1D2CB300244F30 /* bg_icon.jpg in Resources */,
@@ -744,6 +760,8 @@
 				D8DEFF1B1D1A5B3A00AF2902 /* icon.png in Resources */,
 				D8DEFF1D1D1A5B3A00AF2902 /* Default-568h@2x~iphone.png in Resources */,
 				D8A343721D1C114A00591781 /* male207@2x.png in Resources */,
+				D840C4841D20D08400D2363E /* XPSetTableViewController.xib in Resources */,
+				D840C47F1D20C94500D2363E /* XPForgetPwdViewController.xib in Resources */,
 				D8DEFF181D1A5B3A00AF2902 /* icon-76@2x.png in Resources */,
 				D8DEFF201D1A5B3A00AF2902 /* Default-Portrait@2x~ipad.png in Resources */,
 				D8DEFF1A1D1A5B3A00AF2902 /* icon-small@2x.png in Resources */,
@@ -821,8 +839,10 @@
 				D8A3437F1D1C171300591781 /* XPLoginViewController.m in Sources */,
 				D8A3433D1D1C064400591781 /* XPMessageViewController.m in Sources */,
 				D8A343841D1C20DE00591781 /* XPRegisterViewController.m in Sources */,
-				D85370451D1FDA5300C43C9E /* XPYXViewController.m in Sources */,
+				D840C4791D20C57800D2363E /* XPYXViewController.m in Sources */,
 				D8E8023D1D1D25FE00244F30 /* XPMeTableController.m in Sources */,
+				D840C4831D20D08400D2363E /* XPSetTableViewController.m in Sources */,
+				D840C47E1D20C94500D2363E /* XPForgetPwdViewController.m in Sources */,
 				D8DEFEF51D1A575100AF2902 /* AppDelegate.m in Sources */,
 				D8404FDE1D1A4445001EE7DB /* main.m in Sources */,
 				D8A342ED1D1BA4DB00591781 /* XPDestinationTableController.m in Sources */,

@@ -8,13 +8,20 @@
 
 #import "XPLoginViewController.h"
 #import "XPRegisterViewController.h"
+#import "XPYXViewController.h"
+#import "XPForgetPwdViewController.h"
 
 @interface XPLoginViewController ()
 //手机输入框
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
 //验证码输入框
 @property (weak, nonatomic) IBOutlet UITextField *securityCodeField;
+@property (weak, nonatomic) IBOutlet UITextField *phoneField;
 
+@property (weak, nonatomic) IBOutlet UITextField *pwdField;
+
+@property (weak, nonatomic) IBOutlet UIView *soonLoginView;
+@property (weak, nonatomic) IBOutlet UIView *accountAndPwdView;
 @end
 
 @implementation XPLoginViewController
@@ -37,6 +44,8 @@
     
     //修改文本框光标显示位置
     [self moveTheCursorPosition];
+    
+    self.accountAndPwdView.hidden = YES;
 
 }
 
@@ -62,6 +71,19 @@
     leftSecurityCode.contentMode = UIViewContentModeCenter;
     self.securityCodeField.leftViewMode = UITextFieldViewModeAlways;
     self.securityCodeField.leftView = leftSecurityCode;
+    
+    UIImageView  *phone = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"weizhi"]];
+    leftPhone.frame = CGRectMake(0, 0, 10, 20);
+    leftPhone.contentMode = UIViewContentModeCenter;
+    self.phoneField.leftViewMode = UITextFieldViewModeAlways;
+    self.phoneField.leftView = phone;
+    
+    UIImageView  *pwd = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"weizhi"]];
+    leftSecurityCode.frame = CGRectMake(0, 0, 10, 20);
+    leftSecurityCode.contentMode = UIViewContentModeCenter;
+    self.pwdField.leftViewMode = UITextFieldViewModeAlways;
+    self.pwdField.leftView = pwd;
+
 }
 
 #pragma mark -关闭界面
@@ -94,11 +116,24 @@
 
 #pragma mark -账号密码登录
 - (IBAction)accountAndPasswordLogin:(id)sender {
-    
+    self.accountAndPwdView.hidden = NO;
+    self.soonLoginView.hidden = YES;
 }
 
-#pragma mark -我是游侠
-- (IBAction)IamYX:(id)sender {
-    
+#pragma mark -快捷登录
+- (IBAction)soonLogin:(id)sender {
+    self.accountAndPwdView.hidden = YES;
+    self.soonLoginView.hidden = NO;
 }
+
+#pragma mark -游侠登录
+- (IBAction)yxBtn:(id)sender {
+    [self.navigationController presentViewController:[[UINavigationController alloc] initWithRootViewController:[[XPYXViewController alloc] init]] animated:YES completion:nil];
+}
+
+#pragma mark -忘记密码
+- (IBAction)forgetPwd:(id)sender {
+    [self.navigationController presentViewController:[[UINavigationController alloc] initWithRootViewController:[[XPForgetPwdViewController alloc] init]] animated:YES completion:nil];
+}
+
 @end

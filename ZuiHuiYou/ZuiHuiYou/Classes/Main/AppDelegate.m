@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "XPWelcomeViewController.h"
+#import "XPTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -20,9 +21,19 @@
    
     //创建窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    // 设置窗口的根控制器
-    self.window.rootViewController = [[XPWelcomeViewController alloc] init];
     
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+ 
+    if (![defaults boolForKey:@"first"]) {
+        // 设置窗口的根控制器
+        self.window.rootViewController = [[XPWelcomeViewController alloc] init];
+        self.isFirst = YES;
+        [defaults setBool:self.isFirst forKey:@"first"];
+    }else
+    {
+        // 设置窗口的根控制器
+        self.window.rootViewController = [[XPTabBarController alloc] init];
+    }
     // 显示窗口
     [self.window makeKeyAndVisible];
     

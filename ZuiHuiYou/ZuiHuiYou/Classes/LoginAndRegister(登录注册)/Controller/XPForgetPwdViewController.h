@@ -1,5 +1,5 @@
 //
-//  XPYXViewController.h
+//  XPForgetPwdViewController.h
 //  ZuiHuiYou
 //
 //  Created by dragon on 16/6/27.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XPYXViewController : UIViewController
+@interface XPForgetPwdViewController : UIViewController
 
 @end
