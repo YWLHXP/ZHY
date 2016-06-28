@@ -29,6 +29,8 @@
         self.window.rootViewController = [[XPWelcomeViewController alloc] init];
         self.isFirst = YES;
         [defaults setBool:self.isFirst forKey:@"first"];
+        //同步 可以使内存中数据改变完之后 立即保存到文件中   不加也能保存 但是有可能不够及时
+        [defaults synchronize];
     }else
     {
         // 设置窗口的根控制器

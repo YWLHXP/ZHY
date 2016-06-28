@@ -22,48 +22,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // 添加子控制器
-    [self addAllChildViewController];
-    
-}
-
-#pragma mark -添加子控制器
-- (void)addAllChildViewController
-{
-    //首页
-    UINavigationController *home = [[UINavigationController alloc] initWithRootViewController: [[XPHomeTableController alloc] init]];
-    [self addOneChildViewController:home image:[UIImage imageNamed:@"earth72"] selImage:[UIImage imageNamed:@"earth72_s"]];
-    home.title = @"首页";
-    
-    //目的地
-    UINavigationController *destination = [[UINavigationController alloc] initWithRootViewController: [[XPDestinationTableController alloc] init]];
-    [self addOneChildViewController:destination image:[UIImage imageNamed:@"house92"] selImage:[UIImage imageNamed:@"house92_s"]];
-    destination.title = @"目的地";
-    
-    //消息
-    UINavigationController *message = [[UINavigationController alloc] initWithRootViewController: [[XPMessageViewController alloc] init]];
-    [self addOneChildViewController:message image:[UIImage imageNamed:@"message5"] selImage:[UIImage imageNamed:@"message5_s"]];
-    message.title = @"消息";
-    
-    //我
-    XPNavigationController *me = [[XPNavigationController alloc] initWithRootViewController: [[XPMeTableController alloc] init]];
-    [self addOneChildViewController:me image:[UIImage imageNamed:@"male207"] selImage:[UIImage imageNamed:@"male207_s"]];
-    me.title = @"我";
-    
-}
-
-#pragma mark -添加一个子控制器
-- (void)addOneChildViewController:(UIViewController *)vc image:(UIImage *)image selImage:(UIImage *)selImage
-{
-//    vc.navigationItem.title = title;
-    vc.tabBarItem.image = image;
-    //保持图片不被渲染
-    UIImage *originalImage = [selImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    vc.tabBarItem.selectedImage = originalImage;
-    
-    [self addChildViewController:vc];
-    //文字颜色
-    self.tabBar.tintColor = [UIColor orangeColor];
 }
 
 @end
