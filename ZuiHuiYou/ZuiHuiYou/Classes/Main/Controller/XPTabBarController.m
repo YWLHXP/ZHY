@@ -22,6 +22,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self addchildViewControllers];
+}
+
+- (void)addchildViewControllers
+{
+    XPHomeTableController *home = [XPHomeTableController new];
+    [self addChildViewController:home];
+    
+    XPMessageViewController *message = [XPMessageViewController new];
+    [self addChildViewController:message];
+    
+    XPMeTableController *me = [XPMeTableController new];
+    [self addChildViewController:me];
 }
 
 @end
